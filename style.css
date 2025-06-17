@@ -1,11 +1,11 @@
 :root{
-    --text-color: #dbe4ef;
+    --text-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #00f4bf;
+    --card-back-color: #00F4BF;
 }
 
 body{
-    background-image: url(img/bg-desktop.jpg);
+    background-image: url(img/bg-desktop.webp);
     font-family: Bai Jamjuree;
 }
 
@@ -53,7 +53,7 @@ body{
 
 .cartao_conteudo_resposta p{
     color: var(--card-back-color);
-    font-weight: 700;
+    font-weight:700;
 }
 
 
@@ -64,7 +64,7 @@ body{
 .cartao_conteudo_pergunta,
 .cartao_conteudo_resposta{
     backface-visibility: hidden;
-    position: absolute;
+    position:absolute;
     height: 100%;
     width: 100%;
 }
