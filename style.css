@@ -1,7 +1,7 @@
 :root{
-    --text-color: #DBE4EF;
+    --text-color: #dbe4ef;
     --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-back-color: #00f4bf;
 }
 
 body{
@@ -40,7 +40,6 @@ body{
 
 .cartao_conteudo h3{
     color: var(--text-color);
-    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -57,7 +56,7 @@ body{
 
 .cartao_conteudo_resposta p{
     color: var(--card-back-color);
-    font-weight:700;
+    font-weight: 700;
 }
 
 
@@ -67,15 +66,16 @@ body{
 
 .cartao_conteudo_pergunta,
 .cartao_conteudo_resposta{
-    backface-visibility: hidden;
-    position:absolute;
-    height: 100%;
-    width: 100%;
+backface-visibility: hidden;
+position: absolute;
+height: 100%;
+width: 100%;
 }
 
 .cartao_conteudo_resposta{
     transform: rotateY(180deg);
 }
+
 
 footer{
     background-color: black;
